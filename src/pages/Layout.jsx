@@ -5,12 +5,13 @@ import Footer from "../components/footer/Footer";
 
 const Layout = () => {
   const location = useLocation();
-  const claimsPage = location.pathname === "/claims";
+  const page =
+    location.pathname === "/claims" || location.pathname === "/airdrop";
   return (
     <>
       <NavBar />
       <Outlet />
-      {!claimsPage && <Footer />}
+      {!page && <Footer />}
     </>
   );
 };
