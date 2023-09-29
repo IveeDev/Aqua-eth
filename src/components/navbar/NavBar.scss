@@ -19,7 +19,7 @@ $bp-smallest: 31.25em;
     padding: 5rem 5rem;
 
     @media only screen and (max-width: $bp-smallest) {
-      padding: 1rem;
+      padding: 3rem 1rem;
     }
 
     .logo {
