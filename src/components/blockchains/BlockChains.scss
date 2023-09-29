@@ -42,7 +42,9 @@ $bp-smallest: 31.25em; // 500px
 
       @media only screen and (max-width: $bp-phone) {
         width: fit-content;
-        margin: 2rem auto;
+        flex-wrap: wrap;
+        margin: 0 auto;
+        padding: 0 4rem;
       }
     }
 
