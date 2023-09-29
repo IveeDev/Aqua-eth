@@ -46,6 +46,10 @@ $bp-smallest: 31.25em; // 500px
         text-align: center;
         color: var(--color-white);
 
+        @media only screen and (max-width: $bp-phone) {
+          margin-bottom: 3rem;
+        }
+
         div {
           p {
             font-size: 3rem;
