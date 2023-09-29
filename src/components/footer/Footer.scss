@@ -1,0 +1,24 @@
+.footer {
+  background-color: #282828;
+  display: flex;
+  color: var(--color-white);
+
+  .container {
+    width: 50%;
+    padding: 5rem 0;
+    margin-left: 10rem;
+    .social {
+      display: flex;
+      gap: 2rem;
+      img {
+        width: 5%;
+      }
+    }
+
+    p {
+      font-size: 1.6rem;
+      font-weight: 500;
+      margin-top: 1rem;
+    }
+  }
+}
