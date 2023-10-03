@@ -58,7 +58,7 @@ $bp-smallest: 31.25em; // 500px
       @media only screen and (max-width: $bp-phone) {
         flex-direction: column-reverse;
         text-align: left;
-        padding: 5rem 10rem;
+        padding: 5rem 5rem;
       }
 
       .col {
@@ -83,11 +83,9 @@ $bp-smallest: 31.25em; // 500px
           width: 10%;
         }
         &--1 {
-          //   background-color: red;
         }
 
         &--2 {
-          //   background-color: beige;
         }
       }
     }

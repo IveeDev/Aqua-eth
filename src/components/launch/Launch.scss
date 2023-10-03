@@ -47,7 +47,8 @@ $bp-smallest: 31.25em; // 500px
         color: var(--color-white);
 
         @media only screen and (max-width: $bp-phone) {
-          margin-bottom: 3rem;
+          margin-bottom: 2rem;
+          flex-direction: column;
         }
 
         div {
