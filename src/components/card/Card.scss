@@ -1,3 +1,10 @@
+$bp-largest: 75em; // 1200px
+$bp-large: 68.75em; // 1100px
+$bp-medium: 56.25em; // 900px
+$bp-small: 37.5em; // 600px
+$bp-phone: 48em;
+$bp-smallest: 31.25em; // 500px
+
 .card {
   width: 40rem;
   .container {
@@ -7,7 +14,6 @@
     color: var(--color-white);
 
     .sale-live {
-      //   background-color: ;
       display: flex;
       align-items: center;
       gap: 1rem;
@@ -63,6 +69,10 @@
       font-weight: 600;
       //   height: 19rem;
       padding: 2rem 1.5rem;
+
+      @media only screen and (max-width: $bp-phone) {
+        width: 100%;
+      }
 
       &__col {
         display: flex;

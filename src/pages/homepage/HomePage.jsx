@@ -12,10 +12,12 @@ const HomePage = () => {
           <div className="col col--1">
             <h1>Empower your Project With Aquapad</h1>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Laboriosam atque excepturi fugiat itaque, quaerat quibusdam culpa
-              harum qui doloremque neque amet dolorum reprehenderit, facilis
-              aspernatur consectetur illum, similique aut ea?
+              The blockchain ecosystem has witnessed exponential growth,
+              resulting in the emergence of numerous blockchain networks.
+              However, this fragmentation has created challenges for projects
+              aiming to launch on multiple chains. AquaEth addresses this issue
+              by offering a robust and streamlined launchpad platform, enabling
+              projects to seamlessly deploy on various blockchains.
             </p>
             <button className="hero-btn">Launch App</button>
           </div>
@@ -25,6 +27,7 @@ const HomePage = () => {
           </div>
         </div>
       </div>
+
       {/* Supported BlockChain */}
       <BlockChains />
 

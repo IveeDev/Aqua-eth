@@ -29,10 +29,12 @@ const BlockChains = () => {
             <div className="text-box">
               <h2>Transparency and trust</h2>
               <p>
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fugiat
-                dolore alias, quidem placeat odit dolores facere ipsam tenetur,
-                corporis error sequi illum amet! Accusamus quo laudantium ipsam
-                perspiciatis sequi unde!
+                AquaEth fosters an inclusive community where token holders have
+                voting rights and actively participate in decentralized
+                governance processes. This transparency ensures that important
+                decisions regarding the platform, such as upgrades and fee
+                structures, are made collectively and fairly, enhancing trust
+                among users and stakeholder
               </p>
             </div>
           </div>
@@ -42,10 +44,15 @@ const BlockChains = () => {
             <div className="text-box">
               <h2>Cross-chain Technology</h2>
               <p>
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fugiat
-                dolore alias, quidem placeat odit dolores facere ipsam tenetur,
-                corporis error sequi illum amet! Accusamus quo laudantium ipsam
-                perspiciatis sequi unde!
+                AquaEth acts as a bridge between Ethereum and multiple
+                blockchain networks, including Binance Smart Chain, Polkadot,
+                Solana, and more. Through various cross-chain communication
+                protocols, AquaEth enables projects to effortlessly deploy their
+                tokens and DApps on different chains. This integration not only
+                promotes interoperability but also allows AquaEth to tap into a
+                diverse user base and liquidity pool across various chains,
+                demonstrating its commitment to providing a robust and versatile
+                cross-chain solution.
               </p>
             </div>
           </div>
