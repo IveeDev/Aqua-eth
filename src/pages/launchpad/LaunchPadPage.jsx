@@ -12,7 +12,7 @@ const LaunchPadPage = () => {
         <div className="row">
           <Card />
           <ActiveCard
-            heading="Complete"
+            heading="Completed"
             text="No completed project at the moment."
           />
           <ActiveCard
